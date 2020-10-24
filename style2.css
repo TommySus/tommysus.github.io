@@ -1,0 +1,68 @@
+body {
+    font-family: 'Turret Road', cursive;
+    background: url('background2.png');
+}
+
+.mulai {
+    text-align: center;
+}
+
+.mulai p {
+    font-size: 30px;
+}
+
+.detik {
+    font-size: 60px;
+}
+
+.button {
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px 40px;
+    font-size: 30px;
+    background-color: orange;
+    outline: none;
+    border-color: black;
+}
+
+.reset {
+    margin-left: 70%;
+    border-radius: 20px;
+    padding: 20px 40px;
+    font-size: 30px;
+    background-color: orange;
+    outline: none;
+    border-color: black;
+    cursor: pointer;
+}
+
+.reset:hover {
+    margin-left: 70%;
+    padding: 40px 80px;
+    font-size: 60px;
+    background-color: black;
+    border-color: orange;
+    color: blanchedalmond;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: black;
+    color: blanchedalmond;
+    transition: 0.5s;
+    border-color: orange;
+    padding: 40px 80px;
+    font-size: 60px;
+}
+
+.score {
+    margin-top: 80px;
+    font-size: 40px;
+    text-decoration: underline ;
+}
+
+.selamat {
+    margin-top: -20px;
+    text-decoration: initial;
+}

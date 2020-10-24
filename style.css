@@ -1,0 +1,36 @@
+body {
+    font-family: 'Turret Road', cursive;
+    background: url('background2.png');
+}
+
+.pembuka {
+    text-align: center;
+}
+
+.pembuka h1 {
+    font-size: 80px;
+    margin-top: 150px;
+}
+
+.pembuka h3 {
+    margin-top: -60px;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    padding: 6px 20px;
+    border-color: orange;
+    border-radius: 30px;
+    background-color: orange;
+    cursor: hand;
+    
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+    padding: 12px 40px;
+    transition: 0.5s;
+}
